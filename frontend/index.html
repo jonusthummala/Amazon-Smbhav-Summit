@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BridgeCommerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to BridgeCommerce</h1>
+    <p>Transforming Social Media Content into AI-Driven Shoppable Experiences</p>
+  </header>
+  
+  <section id="upload-section">
+    <h2>Upload Content</h2>
+    <input type="file" id="file-upload" accept="image/*,video/*">
+    <button onclick="uploadContent()">Upload</button>
+  </section>
+  
+  <section id="object-detection">
+    <h2>Detected Objects</h2>
+    <div id="detection-results"></div>
+  </section>
+  
+  <section id="product-recommendations">
+    <h2>Recommended Products</h2>
+    <div id="product-list"></div>
+  </section>
+
+  <section id="ar-visualization">
+    <h2>AR Visualization</h2>
+    <button onclick="toggleAR()">Toggle AR View</button>
+    <div id="ar-view"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 BridgeCommerce</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
